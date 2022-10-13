@@ -1,69 +1,52 @@
-.photo {
-    background-image: url("./img/doctors/doctors-1.jpg");
-    background-size: cover;
-    background-position: bottom;
-    height: 32rem;
-      
+.half{
+    background-color: #05386B;
+    color: aliceblue;
 }
-.huro1{
-  background-color: azure;
- 
+a{
+    text-decoration: none !important;
+    color:aliceblue !important;
 }
-/* to change this with claSS */
-.home2{
-    margin-top: 15rem;
-    height: 30rem;
-    width: 30rem;  
+.hf{
+    background-color: #e9e7e7;
 }
-
-.home{
-    margin-top: 15rem;
-    margin-bottom: 5rem;
+.fronted{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-.map-container-3{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-  }
-  .map-container-3 iframe{
-    left:0;
-    top:0;
-    height:50%;
-    width:100%;
-    position:absolute;
-  }
-
-  .card-img1{
-    height: 10rem;
-    width: 100%;
+.backend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.database{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.languge{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.myicon{
+    font-size: 30px !important;
+}
+img{
     border-radius: 50%;
-  }
-.footer{
-  height: 30rem;
-  display: flex;
-  justify-content: center;
-  background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
 }
-a {
-  color:black ;
-  text-decoration: none;
-  padding: 1rem; 
-}
-.myicons{
-  font-size: 30px !important;
-  color: rgb(19, 19, 20);
-}
-.ig{
-  font-size: 50px !important;
-  color: blue;
-  padding: 1rem;
-}
-.btn1{
-  background-color: rgb(84, 141, 192);
-  color: aliceblue;
-  border: none;
-}
-.dij{
-  color: aliceblue;
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
 }
