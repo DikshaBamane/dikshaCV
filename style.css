@@ -1,10 +1,69 @@
-.half{
-    background-color: #2EBD90;
+.photo {
+    background-image: url("./img/doctors/doctors-1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 32rem;
+      
+}
+.huro1{
+  background-color: azure;
+ 
+}
+/* to change this with claSS */
+.home2{
+    margin-top: 15rem;
+    height: 30rem;
+    width: 30rem;  
+}
+
+.home{
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+  }
+
+  .card-img1{
+    height: 10rem;
+    width: 100%;
+    border-radius: 50%;
+  }
+.footer{
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
 }
 a {
-    text-decoration: none;
-    color: black;
+  color:black ;
+  text-decoration: none;
+  padding: 1rem; 
 }
-.hf{
-    background-color: #CCFFCC;
+.myicons{
+  font-size: 30px !important;
+  color: rgb(19, 19, 20);
+}
+.ig{
+  font-size: 50px !important;
+  color: blue;
+  padding: 1rem;
+}
+.btn1{
+  background-color: rgb(84, 141, 192);
+  color: aliceblue;
+  border: none;
+}
+.dij{
+  color: aliceblue;
 }
